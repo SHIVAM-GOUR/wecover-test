@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+.button {
+  color: var(--brand-black);
+  font-size: var(--subtitle2-size);
+  font-family: var(--font-figtree);
+  border: none;
+  border-radius: var(--br-81xl);
+  background-color: var(--common-white);
+  box-shadow: 0 6px 10px rgba(0, 86, 215, 0.06);
+  width: 115px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  opacity: 0.8;
+  font-weight: 700;
+}
+.logoIcon {
+  position: relative;
+  width: 125.98px;
+  height: 25px;
+}

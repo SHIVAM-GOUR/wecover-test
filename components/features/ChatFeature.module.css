@@ -1,0 +1,25 @@
+.chatWithUsChild {
+    border-radius: 50%;
+    background: linear-gradient(101.27deg, #9af02d, #47cfe1);
+  }
+  .chatWithUsChild,
+  .maskGroupIcon {
+    position: absolute;
+    top: 14.56px;
+    left: 2.83px;
+    width: 68.63px;
+    height: 68.63px;
+  }
+  .chatWithUs,
+  .unionIcon {
+    position: relative;
+    width: 75.54px;
+    height: 24.14px;
+  }
+  .chatWithUs {
+    position: absolute;
+    top: 877px;
+    left: 1323.13px;
+    height: 83.2px;
+  }
+  

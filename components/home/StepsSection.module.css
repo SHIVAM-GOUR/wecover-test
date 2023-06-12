@@ -1,0 +1,11 @@
+.container {
+  width: 700px;
+  margin-top: 5vh;
+  font-size: var(--font-size-5xl);
+  color: var(--brand-black);
+  font-family: var(--font-figtree);
+}
+.text {
+  text-align: center;
+  font-weight: 600;
+}

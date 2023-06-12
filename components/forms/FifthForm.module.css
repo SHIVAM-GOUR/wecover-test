@@ -1,0 +1,56 @@
+.container {
+  color: var(--brand-black);
+  font-family: var(--font-figtree);
+  display: flex;
+  width: 750px;
+  justify-content: space-between;
+}
+.heading {
+  font-weight: 600;
+}
+.subContainer {
+  width: 47%;
+}
+.textBox {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+.headText {
+  color: var(--brand-black);
+}
+.mainText {
+  font-size: large;
+}
+.paymentInputs {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+.payButton {
+  background: linear-gradient(
+    101.27deg,
+    rgba(154, 240, 45, 1),
+    rgba(71, 207, 225, 1)
+  );
+  color: var(--brand-black);
+  font-size: var(--subtitle2-size);
+  font-family: var(--font-figtree);
+  border: none;
+  border-radius: var(--br-81xl);
+  background-color: var(--common-white);
+  box-shadow: 0 6px 10px rgba(0, 86, 215, 0.06);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  font-weight: 700;
+  margin-top: 30px;
+}

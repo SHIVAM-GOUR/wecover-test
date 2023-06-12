@@ -1,0 +1,47 @@
+.container {
+  margin-top: 5vh;
+  font-size: var(--font-size-5xl);
+  color: var(--brand-black);
+  font-family: var(--font-figtree);
+}
+.text {
+  text-align: center;
+  font-weight: 600;
+}
+.stepsBox {
+  width: 700px;
+}
+.formContainer {
+  margin-top: 16px;
+  border-radius: var(--br-11xl);
+  background-color: var(--common-white);
+  box-shadow: var(--widget-shadow);
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-base);
+}
+.nextBtn {
+  color: var(--brand-black);
+  font-size: var(--subtitle2-size);
+  font-family: var(--font-figtree);
+  border: 3px solid rgba(71, 207, 225, 1);
+  border-radius: var(--br-81xl);
+  background-color: var(--common-white);
+  box-shadow: 0 6px 10px rgba(0, 86, 215, 0.06);
+  width: 115px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  opacity: 0.8;
+  font-weight: 700;
+}
+.nextBtn:hover {
+    background-color: white !important;
+    color: var(--brand-black) !important;
+}
